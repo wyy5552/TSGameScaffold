@@ -1,0 +1,17 @@
+{
+  "name": "jsj",
+  "type": "3d",
+  "uuid": "beabc14b-ce8e-46ff-b914-69c9c9a006ea",
+  "version": "3.2.0",
+  "creator": {
+    "version": "3.2.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.23.4",
+    "typescript": "^4.3.5"
+  }
+}

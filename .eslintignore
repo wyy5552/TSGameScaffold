@@ -1,0 +1,4 @@
+# 只检测 assets 文件夹
+!/assets
+
+.eslintrc.js

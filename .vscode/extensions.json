@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "alefragnani.Bookmarks",
+        "eamodio.gitlens",
+        "EditorConfig.EditorConfig",
+        "Gruntfuggly.todo-tree",
+        "esbenp.prettier-vscode"
+    ]
+}
