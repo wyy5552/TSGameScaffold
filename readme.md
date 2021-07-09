@@ -1,7 +1,7 @@
 1. 搭建脚手架  
    eslint  
    [使用 ESLint+Prettier 规范 React+Typescript 项目](https://zhuanlan.zhihu.com/p/62401626)  
-   [eslint 的解释](https://www.jianshu.com/p/a09a5a222a76)
+   [eslint 的解释](https://www.jianshu.com/p/a09a5a222a76)  
    [airbnb](https://www.html.cn/archives/8345)
 
     [怎样设置 prettier](https://blog.csdn.net/onlyliii/article/details/89312857)  
