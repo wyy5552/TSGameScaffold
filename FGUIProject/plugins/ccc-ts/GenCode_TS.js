@@ -43,7 +43,7 @@ function genCode(handler) {
                 writer.writeln();
         }
 
-        
+
 
         writer.writeln('export default class %s extends %s', classInfo.className, classInfo.superClassName);
         writer.startBlock();
@@ -95,6 +95,10 @@ function genCode(handler) {
     }
     if (isThree) {
         writer.writeln('import * as fgui from "fairygui-three";');
+        writer.writeln();
+    }
+    if (isCocos) {
+        writer.writeln('import * as fgui from "fairygui-cc";');
         writer.writeln();
     }
     writer.writeln();

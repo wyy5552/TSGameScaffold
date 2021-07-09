@@ -109,7 +109,10 @@ function genCode(handler: FairyEditor.PublishHandler) {
         writer.writeln('import * as fgui from "fairygui-three";');
         writer.writeln();
     }
-
+    if (isCocos) {
+        writer.writeln('import * as fgui from "fairygui-cc";');
+        writer.writeln();
+    }
     writer.writeln();
     writer.writeln('export default class %s', binderName);
     writer.startBlock();

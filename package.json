@@ -6,15 +6,16 @@
 	"creator": {
 		"version": "3.2.0"
 	},
+	"dependencies": {
+		"fairygui-cc": "^1.0.1"
+	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^4.28.2",
 		"@typescript-eslint/parser": "^4.28.2",
 		"eslint": "^7.30.0",
 		"eslint-config-airbnb-typescript": "^12.3.1",
 		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-simple-import-sort": "^7.0.0",
 		"typescript": "^4.3.5"
-	},
-	"dependencies": {
-		"fairygui-cc": "^1.0.1"
 	}
 }

@@ -3,6 +3,8 @@
 import UI_Main from "./UI_Main";
 import UI_CloseButton from "./UI_CloseButton";
 import UI_Button from "./UI_Button";
+import * as fgui from "fairygui-cc";
+
 
 export default class MainUIBinder {
 	public static bindAll():void {
