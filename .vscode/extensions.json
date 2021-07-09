@@ -1,11 +1,14 @@
 {
     "recommendations": [
+        "alefragnani.Bookmarks",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "alefragnani.Bookmarks",
         "eamodio.gitlens",
+        "esbenp.prettier-vscode",
         "EditorConfig.EditorConfig",
         "Gruntfuggly.todo-tree",
-        "esbenp.prettier-vscode"
+        "OBKoro1.korofileheader",
+        "oderwat.indent-rainbow",
+        "streetsidesoftware.code-spell-checker"
     ]
 }
