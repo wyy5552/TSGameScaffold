@@ -1,0 +1,11 @@
+{
+  "name": "ccc-ts",
+  "displayName": "cocos3x代码导出",
+  "description": "cocos3x代码导出",
+  "version": "1.0",
+  "author": {
+    "name": "weiyanyu"
+  },
+  "icon": "",
+  "main": "main.js"
+}

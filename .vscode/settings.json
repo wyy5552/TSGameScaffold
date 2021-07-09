@@ -151,4 +151,8 @@
 	},
 	"eslint.debug": true,
 	"eslint.format.enable": true,
+	"cSpell.words": [
+		"fairygui",
+		"fgui"
+	],
 }
