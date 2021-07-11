@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://6sd2b4omkb41n" designImageAlpha="40">
+  <displayList>
+    <loader id="n10_qaj5" name="bg" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <graph id="n15_kb41" name="n15" xy="0,0" size="750,1334" type="rect" lineSize="0" lineColor="#ffffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n2_f4jw" name="bar_loading" src="kb41s" fileName="组件/BarLoading.xml" xy="71,778" size="614,44" group="n13_joy5">
+      <relation target="" sidePair="middle-middle,center-center"/>
+      <ProgressBar value="18" max="100"/>
+    </component>
+    <text id="n6_yj65" name="tf_version" xy="21,1284" size="60,24" group="n13_joy5" font="Microsoft YaHei" fontSize="20" color="#ffff00" text="10.0.1">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <image id="n9_qaj5" name="n9" src="qaj5e" fileName="资源/loading_text_03.png" xy="105,1253" group="n13_joy5" color="#999999">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <group id="n13_joy5" name="loading_group" xy="21,778" size="664,545" advanced="true"/>
+    <component id="n18_hk0m" name="n18" src="hk0mcab" fileName="logo.xml" xy="216,259"/>
+  </displayList>
+</component>

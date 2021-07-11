@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6be7cpot">
+  <resources>
+    <image id="yj6517" name="btn_da_p.png" path="/_系统用/资源/按钮/" scale="9grid" scale9grid="50,40,4,1"/>
+    <image id="yj6518" name="btn_fanhui.png" path="/_系统用/资源/按钮/"/>
+    <image id="yj6519" name="btn_guanbi.png" path="/_系统用/资源/按钮/"/>
+    <image id="yj651a" name="btn_xiao_p.png" path="/_系统用/资源/按钮/" scale="9grid" scale9grid="36,29,3,2"/>
+    <image id="yj651b" name="btn_zuixiao_n.png" path="/_系统用/资源/按钮/" scale="9grid" scale9grid="33,24,1,1"/>
+    <image id="yj651c" name="btn_zuixiao_p.png" path="/_系统用/资源/按钮/" scale="9grid" scale9grid="30,24,1,1"/>
+    <image id="yj651d" name="btn_da_n.png" path="/_系统用/资源/按钮/" scale="9grid" scale9grid="44,1,14,83"/>
+    <image id="yj651e" name="通用提示TIPS_底.png" path="/_系统用/资源/" scale="9grid" scale9grid="23,23,1,1"/>
+    <image id="yj651f" name="bg_loading.png" path="/_系统用/资源/" scale="9grid" scale9grid="36,35,5,6"/>
+    <image id="yj651g" name="loading.png" path="/_系统用/资源/"/>
+    <component id="yj651h" name="View_全局加载.xml" path="/_系统用/" exported="true"/>
+    <component id="yj651i" name="ani_全局加载转圈.xml" path="/_系统用/" exported="true"/>
+    <component id="yj651j" name="TopTipCell.xml" path="/_系统用/" exported="true"/>
+    <component id="yj651k" name="TopTipContainer.xml" path="/_系统用/" exported="true"/>
+    <component id="yj651l" name="View_全局背景.xml" path="/_系统用/" exported="true"/>
+    <component id="jb4e8m" name="View_tip.xml" path="/组件/" exported="true"/>
+    <image id="ftyd9a" name="底条.png" path="/res/" scale="9grid" scale9grid="10,5,3,10"/>
+    <image id="ftyd9b" name="进度条.png" path="/res/" scale="9grid" scale9grid="7,3,3,6"/>
+    <image id="11arc9o" name="返回.png" path="/res/"/>
+    <image id="11arc9q" name="紫色小点装饰.png" path="/res/" exported="true"/>
+    <image id="11arc9s" name="通用小板子.png" path="/res/" exported="true" scale="9grid" scale9grid="33,32,3,6"/>
+    <image id="11arc9t" name="关闭.png" path="/res/"/>
+    <component id="11arc9u" name="Btn_Close.xml" path="/组件/" exported="true"/>
+    <image id="11arc9v" name="紫色装饰.png" path="/res/" exported="true"/>
+    <image id="11arc9w" name="紫色条.png" path="/res/" exported="true" scale="9grid" scale9grid="84,1,168,2"/>
+    <image id="11arc9y" name="look_video.png" path="/res/" exported="true"/>
+    <image id="11arc9z" name="friend_help.png" path="/res/" exported="true"/>
+    <image id="slpe9l" name="home_pic-tg_02.png" path="/res/" exported="true" scale="9grid" scale9grid="3,3,2,2"/>
+    <component id="slpe9m" name="Com_Notice.xml" path="/组件/公告/"/>
+    <image id="oyi0ca7" name="head_0.png" path="/res/" exported="true"/>
+    <sound id="oyi0ca9" name="s_hzwz.wav" path="/res/" exported="true"/>
+    <sound id="oyi0caa" name="s_mys.wav" path="/res/" exported="true"/>
+    <sound id="oyi0cac" name="s_hhfs.wav" path="/res/" exported="true"/>
+    <sound id="oyi0cad" name="s_bjwd.wav" path="/res/" exported="true"/>
+    <sound id="oyi0cae" name="s_a.wav" path="/res/" exported="true"/>
+  </resources>
+  <publish name="common" genCode="true"/>
+</packageDescription>

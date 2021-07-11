@@ -2,3 +2,5 @@
 !/assets
 
 .eslintrc.js
+
+./assets/script/UI_Script

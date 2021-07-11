@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="81,40" extention="ProgressBar">
+  <displayList>
+    <image id="n1_kb41" name="n0" src="kb41q" fileName="资源/外壳.png" xy="0,0" size="81,40">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_kb41" name="bar" src="kb41p" fileName="资源/内调.png" xy="16,11" size="48,12">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_kb41" name="title" xy="0,69" size="81,40" fontSize="28" color="#4e2454" align="center" vAlign="middle" autoSize="none" bold="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n3_kb41" name="n3" src="kb41r" fileName="资源/小按钮.png" xy="44,-9" pivot="0.5,0.5">
+      <relation target="n0_kb41" sidePair="left-right"/>
+    </image>
+  </displayList>
+  <ProgressBar/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n3_kb41" tween="true" startValue="0" endValue="360" duration="12" ease="Linear"/>
+  </transition>
+</component>

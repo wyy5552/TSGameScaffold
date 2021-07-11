@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://sotny11wkj7wr" designImageAlpha="0">
+  <displayList>
+    <component id="n28_cdhk" name="hand" src="iitt1" fileName="Main.xml" pkg="rbw1tvvv" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n2_ftyd" name="bar" src="ftyd9c" fileName="组件/ProgressBarAward.xml" xy="243,684" size="308,34">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n24_n5pa" name="btn_main" src="n5pa9g" fileName="组件/Btn_Page.xml" xy="-12,270" scale="0.7,0.7" controller="C_State,0">
+      <Button icon="ui://sotny11wn5pa9f"/>
+    </component>
+    <text id="n31_oyi0" name="tf_best" xy="7,679" size="258,45" fontSize="26" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="none" bold="true" strokeColor="#cc9933" strokeSize="3" text="我的血量"/>
+    <text id="n32_oyi0" name="tf_blood" xy="493,678" size="258,45" fontSize="26" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="none" bold="true" strokeColor="#cc9933" strokeSize="3" text="100/100"/>
+    <graph id="n33_oyi0" name="n33" xy="535,241" size="143,141" type="eclipse" lineSize="8" lineColor="#ffff0000"/>
+    <text id="n34_oyi0" name="tf_time" xy="559,288" size="93,60" font="ui://sotny11wmoac19" fontSize="8" color="#ff9900" align="center" autoSize="none" text="99"/>
+    <graph id="n35_oyi0" name="n35" xy="5,25" size="259,110" group="n38_oyi0" type="rect" lineSize="0" corner="30"/>
+    <text id="n36_oyi0" name="n36" xy="28,36" size="112,87" group="n38_oyi0" fontSize="40" color="#ff9900" align="right" vAlign="middle" autoSize="none" bold="true" strokeColor="#ff0000" text="关卡:"/>
+    <text id="n37_oyi0" name="tf_level" xy="150,39" size="116,82" group="n38_oyi0" font="ui://sotny11wmoac19" fontSize="10" color="#ff0000" vAlign="middle" autoSize="none" text="10"/>
+    <group id="n38_oyi0" name="n38" xy="5,25" size="261,110"/>
+  </displayList>
+</component>

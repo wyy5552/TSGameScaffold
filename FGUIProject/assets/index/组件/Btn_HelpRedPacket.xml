@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,87" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="C_State" pages="0,hide,1,show" selected="0"/>
+  <controller name="C_BG" exported="true" pages="0,show,1,hide" selected="0"/>
+  <displayList>
+    <image id="n3_fiyr" name="n3" src="ftyd9h" fileName="资源/道具底.png" pkg="6be7cpot" xy="0,0" size="87,87">
+      <gearDisplay controller="C_BG" pages="0"/>
+    </image>
+    <loader id="n0_11arc" name="icon" xy="-5,-15" size="98,109" url="ui://srduhovmfiyrc1w" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_11arc" name="title" xy="0,0" size="87,87" fontSize="20" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n4_fiyr" name="n4" src="ftyd9l" fileName="资源/红点.png" pkg="6be7cpot" xy="80,1">
+      <gearDisplay controller="C_State" pages="1"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>

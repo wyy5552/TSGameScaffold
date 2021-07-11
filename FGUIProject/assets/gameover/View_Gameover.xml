@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://wypcxr9rsyyn1" designImageAlpha="0">
+  <controller name="c1" pages="0,,1,,2," selected="1"/>
+  <controller name="qudao" pages="0,normal,1,weixin" selected="0"/>
+  <displayList>
+    <image id="n5_syyn" name="n5" src="11arc9s" fileName="res/通用小板子.png" pkg="6be7cpot" xy="62,209" size="625,840" group="n12_syyn"/>
+    <image id="n6_syyn" name="n6" src="syyn3" fileName="资源/灰色条板.jpg" xy="62,314" size="625,199" group="n12_syyn"/>
+    <image id="n1_syyn" name="n1" src="11arcr" fileName="资源/灰色装饰.png" pkg="srduhovm" xy="199,256" group="n12_syyn"/>
+    <image id="n3_syyn" name="n3" src="11arcr" fileName="资源/灰色装饰.png" pkg="srduhovm" xy="518,256" group="n12_syyn"/>
+    <component id="n4_syyn" name="btn_close" src="11arc9u" fileName="组件/Btn_Close.xml" pkg="6be7cpot" xy="607,227" group="n12_syyn">
+      <Button sound="ui://6be7cpotoyi0cae"/>
+    </component>
+    <component id="n7_syyn" name="btn_share" src="nd81h" fileName="组件/Btn_Common.xml" pkg="srduhovm" xy="258,809" size="234,100" group="n12_syyn" controller="C_Color,0">
+      <gearDisplay controller="qudao" pages="1"/>
+      <Button icon="ui://wypcxr9rsyyn6"/>
+    </component>
+    <component id="n8_syyn" name="btn_play_next" src="nd81h" fileName="组件/Btn_Common.xml" pkg="srduhovm" xy="258,921" size="234,100" group="n12_syyn" controller="C_Color,1">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="挑战下局" titleColor="#ffffff" titleFontSize="40" sound="ui://6be7cpotoyi0cad"/>
+    </component>
+    <image id="n14_lwoi" name="n14" src="syyn8" fileName="资源/bg.png" xy="82,582" size="586,200" group="n12_syyn"/>
+    <text id="n15_oyi0" name="n15" xy="164,650" size="405,118" group="n12_syyn" fontSize="35" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="我好菜呀。不玩了！！！">
+      <gearText controller="c1" pages="1,2" values="我好菜呀。不玩了！！！|卧槽，你居然通关了！" default="你好。你真的好棒棒！"/>
+    </text>
+    <text id="n17_oyi0" name="n17" xy="154,224" size="442,89" group="n12_syyn" fontSize="85" color="#ff0000" align="center" vAlign="middle" autoSize="none" bold="true" text="挑战失败">
+      <gearText controller="c1" pages="1,2" values="挑战失败|通关成功" default="挑战成功"/>
+    </text>
+    <component id="n18_oyi0" name="btn_restart" src="nd81h" fileName="组件/Btn_Common.xml" pkg="srduhovm" xy="258,921" size="234,100" group="n12_syyn" controller="C_Color,2">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="重新开始" titleColor="#ffffff" titleFontSize="40" sound="ui://6be7cpotoyi0cac"/>
+    </component>
+    <image id="n19_oyi0" name="n19" src="oyi0ca7" fileName="res/head_0.png" pkg="6be7cpot" xy="62,320" size="625,310" group="n12_syyn">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </image>
+    <image id="n20_hk0m" name="n20" src="hk0m9" fileName="资源/bg_2.jpg" xy="62,320" size="625,310" group="n12_syyn">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <group id="n12_syyn" name="n12" xy="62,209" size="625,840" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

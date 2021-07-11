@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://srduhovmnd814" designImageAlpha="22">
+  <controller name="qudao" pages="0,normal,1,wx" selected="0"/>
+  <displayList>
+    <image id="n50_nd81" name="n50" src="nd816" fileName="资源/底板1734.jpg" xy="0,-100">
+      <relation target="" sidePair="middle-middle"/>
+    </image>
+    <component id="n48_ftyd" name="btn_start" src="nd81h" fileName="组件/Btn_Common.xml" xy="166,1033" size="398,118" controller="C_Color,0">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button icon="ui://srduhovmnd81f" sound="ui://6be7cpotoyi0ca9"/>
+    </component>
+    <component id="n51_nd81" name="btn_share" src="nd818" fileName="组件/Btn_Share.xml" xy="282,805">
+      <gearDisplay controller="qudao" pages="1"/>
+    </component>
+    <text id="n52_nd81" name="tf_best" xy="136,616" size="481,145" fontSize="100" color="#512356" align="center" vAlign="middle" vars="true" autoSize="none" text="耗子尾汁"/>
+    <component id="n54_11arc" name="btn_rank" src="11arci" fileName="组件/Btn_Rank.xml" xy="26,176">
+      <gearDisplay controller="qudao" pages="1"/>
+      <Button icon="ui://srduhovmnd819"/>
+    </component>
+    <component id="n55_11arc" name="btn_sound" src="11arcj" fileName="组件/Btn_Sound.xml" xy="24,30" controller="C_State,0">
+      <Button icon="ui://srduhovmnd81a"/>
+    </component>
+    <component id="n66_hk0m" name="n66" src="hk0mcab" fileName="logo.xml" pkg="6sd2b4om" xy="216,158"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Scale" target="n48_ftyd" tween="true" startValue="1,1" endValue="0.8,0.8" duration="8"/>
+    <item time="8" type="Scale" target="n48_ftyd" tween="true" startValue="0.8,0.8" endValue="1,1" duration="8"/>
+  </transition>
+</component>

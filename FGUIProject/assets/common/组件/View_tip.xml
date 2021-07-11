@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="417,60">
+  <displayList>
+    <text id="n0_e57m" name="title" xy="7,2" size="401,56" fontSize="40" color="#c35503" align="center" vAlign="middle" strokeColor="#ffffff" strokeSize="2" singleLine="true" text="这是一个tip...aaaaaaa"/>
+  </displayList>
+  <relation target="n0_e57m" sidePair="width-width"/>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,87" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="C_State" exported="true" pages="0,bottom,1,right" selected="1"/>
+  <displayList>
+    <loader id="n2_11arc" name="icon" xy="73,25" size="87,40" align="center" vAlign="middle">
+      <gearXY controller="C_State" pages="1" values="73,25" default="0,88"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n3_11arc" name="n3" src="nd81b" fileName="资源/声音关闭.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n4_11arc" name="n4" src="nd81c" fileName="资源/声音开始.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

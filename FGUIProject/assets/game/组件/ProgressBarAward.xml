@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,19" extention="ProgressBar">
+  <displayList>
+    <image id="n0_ftyd" name="n0" src="moac16" fileName="资源/底条.png" xy="0,0" size="50,19" color="#3399ff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ftyd" name="bar" src="moac17" fileName="资源/进度条.png" xy="2,3" size="46,12" color="#ff0000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <ProgressBar/>
+</component>

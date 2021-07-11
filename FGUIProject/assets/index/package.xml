@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="srduhovm">
+  <resources>
+    <component id="czdz0" name="View_Index.xml" path="/" exported="true"/>
+    <image id="nd814" name="进入界面.jpg" path="/效果图/"/>
+    <image id="nd815" name="正版消数字.png" path="/资源/"/>
+    <image id="nd816" name="底板1734.jpg" path="/资源/"/>
+    <image id="nd817" name="分享.png" path="/资源/"/>
+    <component id="nd818" name="Btn_Share.xml" path="/组件/"/>
+    <image id="nd819" name="排行-zi.png" path="/资源/"/>
+    <image id="nd81a" name="声音.png" path="/资源/" exported="true"/>
+    <image id="nd81b" name="声音关闭.png" path="/资源/"/>
+    <image id="nd81c" name="声音开始.png" path="/资源/"/>
+    <image id="nd81d" name="排行.png" path="/资源/"/>
+    <image id="nd81e" name="按钮橘黄色.png" path="/资源/" scale="9grid" scale9grid="21,55,7,7"/>
+    <image id="nd81f" name="开始游戏-字.png" path="/资源/"/>
+    <image id="nd81g" name="紫色按钮.png" path="/资源/" exported="true" scale="9grid" scale9grid="22,48,5,10"/>
+    <component id="nd81h" name="Btn_Common.xml" path="/组件/" exported="true"/>
+    <component id="11arci" name="Btn_Rank.xml" path="/组件/"/>
+    <component id="11arcj" name="Btn_Sound.xml" path="/组件/" exported="true"/>
+    <image id="11arck" name="猜你喜欢的底板.png" path="/资源/" scale="9grid" scale9grid="11,11,22,22"/>
+    <image id="11arcl" name="猜你喜欢.png" path="/资源/"/>
+    <component id="11arcm" name="ComGuessLike.xml" path="/组件/"/>
+    <component id="11arcn" name="Btn_RedPacket.xml" path="/组件/"/>
+    <image id="11arco" name="提示.jpg" path="/效果图/"/>
+    <component id="11arcp" name="View_HaveArchiveHint.xml" path="/" exported="true"/>
+    <image id="11arcq" name="提示.png" path="/资源/"/>
+    <image id="11arcr" name="灰色装饰.png" path="/资源/" exported="true"/>
+    <image id="11arcs" name="fh_game.png" path="/资源/" exported="true"/>
+    <image id="11arct" name="重新开始.png" path="/资源/"/>
+    <image id="11arcw" name="灰色条板.jpg" path="/资源/" scale="9grid" scale9grid="2,3,1,2"/>
+    <component id="11arcx" name="ComRedPacket.xml" path="/组件/" exported="true"/>
+    <image id="11arcy" name="红包-领取了.jpg" path="/效果图/"/>
+    <image id="11arcz" name="红包-正领取了.jpg" path="/效果图/"/>
+    <image id="11arc10" name="白色下划线.png" path="/资源/"/>
+    <image id="dnhdc11" name="橘色底小.png" path="/资源/" scale="9grid" scale9grid="11,10,3,3"/>
+    <image id="dnhdc12" name="紫色底小板.png" path="/资源/" scale="9grid" scale9grid="12,10,1,2"/>
+    <component id="dnhdc13" name="Btn_CommonS.xml" path="/组件/" exported="true"/>
+    <image id="syync14" name="jx_game.png" path="/资源/" exported="true"/>
+    <image id="kj7wc1a" name="紫色按钮大.png" path="/组件/"/>
+    <image id="kj7wc1b" name="提示(1).jpg" path="/效果图/"/>
+    <component id="n5pac1o" name="ExtractTipsView.xml" path="/" exported="true"/>
+    <image id="n5pac1v" name="成功提现.png" path="/资源/"/>
+    <image id="n5pac1u" name="确定.png" path="/资源/"/>
+    <image id="fiyrc1w" name="每日红包.png" path="/资源/"/>
+    <image id="fiyrc1x" name="邀请红包.png" path="/资源/"/>
+    <component id="fiyrc1y" name="Btn_HelpRedPacket.xml" path="/组件/"/>
+    <image id="ouc2c1z" name="礼券.png" path="/资源/"/>
+    <component id="tv9cc20" name="View_index(1).xml" path="/"/>
+  </resources>
+  <publish name="index" genCode="true"/>
+</packageDescription>

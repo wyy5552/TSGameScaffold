@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="sotny11w">
+  <resources>
+    <component id="ftyd0" name="View_Game.xml" path="/" exported="true"/>
+    <image id="ftyd1" name="样图.jpg" path="/效果图/"/>
+    <image id="ftyd2" name="拉开.png" path="/资源/"/>
+    <component id="ftyd3" name="Btn_Pause.xml" path="/组件/"/>
+    <image id="nd81j" name="游戏界面定板---切图-2.jpg" path="/效果图/"/>
+    <image id="dnhdm" name="游戏界面定板---取消道具参考.jpg" path="/效果图/"/>
+    <image id="kj7wr" name="游戏界面定板---取消道具参考(1).jpg" path="/效果图/"/>
+    <component id="ftyd9c" name="ProgressBarAward.xml" path="/组件/" exported="true"/>
+    <image id="moac16" name="底条.png" path="/资源/" scale="9grid" scale9grid="10,5,3,10"/>
+    <image id="moac17" name="进度条.png" path="/资源/" scale="9grid" scale9grid="7,3,3,6"/>
+    <font id="moac19" name="WhiteFont.fnt" path="/组件/font/" exported="true"/>
+    <image id="moac1a" name="0.png" path="/资源/white_font/"/>
+    <image id="moac1b" name="1.png" path="/资源/white_font/"/>
+    <image id="moac1c" name="2.png" path="/资源/white_font/"/>
+    <image id="moac1d" name="3.png" path="/资源/white_font/"/>
+    <image id="moac1e" name="4.png" path="/资源/white_font/"/>
+    <image id="moac1f" name="5.png" path="/资源/white_font/"/>
+    <image id="moac1g" name="6.png" path="/资源/white_font/"/>
+    <image id="moac1h" name="7.png" path="/资源/white_font/"/>
+    <image id="moac1i" name="8.png" path="/资源/white_font/"/>
+    <image id="moac1j" name="9.png" path="/资源/white_font/"/>
+    <image id="n5pa9f" name="主页.png" path="/资源/"/>
+    <component id="n5pa9g" name="Btn_Page.xml" path="/组件/" exported="true"/>
+    <image id="n5pa9h" name="主页-1.png" path="/资源/"/>
+  </resources>
+  <publish name="game" genCode="true"/>
+</packageDescription>

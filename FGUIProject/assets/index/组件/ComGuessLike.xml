@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,200">
+  <displayList>
+    <image id="n56_11arc" name="n56" src="11arck" fileName="资源/猜你喜欢的底板.png" xy="0,0" size="750,200"/>
+    <image id="n57_11arc" name="n57" src="11arcl" fileName="资源/猜你喜欢.png" xy="22,29"/>
+    <list id="n58_11arc" name="list" xy="147,39" size="559,122" overflow="scroll"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,640">
+  <displayList>
+    <graph id="n7_gt61" name="back_img" xy="0,0" size="640,640" type="rect" lineSize="0" fillColor="#0000ff00"/>
+    <image id="n4_th5u" name="n4" src="yj651f" fileName="_系统用/资源/bg_loading.png" xy="205,246" size="229,148" group="n3_th5u">
+      <relation target="n1_harp" sidePair="height-height"/>
+    </image>
+    <component id="n6_th5u" name="n6" src="yj651i" fileName="_系统用/ani_全局加载转圈.xml" xy="282,275" size="67,66" group="n3_th5u"/>
+    <text id="n1_harp" name="info_txt" xy="228,347" size="176,28" group="n3_th5u" fontSize="18" color="#ffffff" align="center" autoSize="height" text="info_txt"/>
+    <group id="n3_th5u" name="n3" xy="205,246" size="229,148" advanced="true" collapsed="true">
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </group>
+  </displayList>
+</component>

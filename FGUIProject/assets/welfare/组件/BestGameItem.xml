@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,150">
+  <displayList>
+    <loader id="n1_emqf" name="img" xy="0,0" size="148,148" url="ui://pmzq1try11arc9" fill="scaleFree"/>
+    <image id="n0_emqf" name="n0" src="emqfcg" fileName="资源/精品游戏的底板.png" xy="0,0" size="150,150"/>
+    <text id="n2_ls81" name="tf_name" xy="-7,115" size="164,38" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" text="我的地盘判&#xA;"/>
+  </displayList>
+</component>

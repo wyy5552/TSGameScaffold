@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="458,43" extention="Label">
+  <displayList>
+    <text id="n2_ppnm" name="title" xy="-1,0" size="459,43" fontSize="30" color="#ffe13e" vAlign="middle" ubb="true" vars="true" text="恭喜 [color=#db834c]{name=你^^^爷}[/color]， 成功兑换[color=#db834c]{money=0.01}[/color] 元"/>
+  </displayList>
+  <relation target="n2_ppnm" sidePair="rightext-right"/>
+</component>

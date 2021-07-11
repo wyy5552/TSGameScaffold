@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="93,93" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="C_State" exported="true" pages="0,get,1,extract" selected="1"/>
+  <displayList>
+    <image id="n0_11arc" name="n0" src="nd819n" fileName="资源/红包的底.png" pkg="6be7cpot" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_11arc" name="n2" src="w0pdg" fileName="资源/redpacket_get.png" pkg="6be7cpot" xy="0,-8" size="92,110" aspect="true">
+      <gearDisplay controller="C_State" pages="0"/>
+    </image>
+    <image id="n3_11arc" name="n3" src="nd81i" fileName="资源/redpacket.png" pkg="6be7cpot" xy="9,4" size="74,88" aspect="true">
+      <gearDisplay controller="C_State" pages="1"/>
+    </image>
+    <text id="n4_11arc" name="title" xy="32,63" size="48,21" locked="true" hideByEditor="true" visible="false" fontSize="12" color="#ff0000" align="center" vAlign="middle" text="4.236元">
+      <gearDisplay controller="C_State" pages="1"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>

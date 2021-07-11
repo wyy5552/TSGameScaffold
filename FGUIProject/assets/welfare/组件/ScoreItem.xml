@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="716,122">
+  <displayList>
+    <image id="n0_11arc" name="n0" src="11arc8" fileName="资源/排行底板.png" xy="0,0" size="716,122"/>
+    <loader id="n1_11arc" name="img" xy="15,8" size="105,105" align="center" vAlign="middle" fill="scaleFree"/>
+    <image id="n2_11arc" name="n2" src="11arc9" fileName="资源/白色边框.png" xy="13,7" size="110,110" aspect="true"/>
+    <text id="n3_11arc" name="tf_name" xy="179,13" size="199,39" fontSize="26" color="#ffffff" vAlign="middle" autoSize="none" text="传奇"/>
+    <text id="n4_11arc" name="tf_desc" xy="179,57" size="320,31" fontSize="20" color="#e2dce7" vAlign="middle" autoSize="none" text="传奇"/>
+    <text id="n5_11arc" name="tf_n" xy="544,16" size="79,39" fontSize="26" color="#ffd736" align="center" vAlign="middle" autoSize="none" text="奖励"/>
+    <image id="n6_11arc" name="n6" src="11arca" fileName="资源/道具底.png" xy="629,4"/>
+    <loader id="n7_11arc" name="award" xy="634,9" size="50,50" align="center" vAlign="middle" fill="scaleFree"/>
+    <component id="n8_kj7w" name="btn" src="dnhdc13" fileName="组件/Btn_CommonS.xml" pkg="srduhovm" xy="577,71" size="113,47" controller="C_Color,1">
+      <Button icon="ui://pmzq1trykj7wc17"/>
+    </component>
+  </displayList>
+</component>

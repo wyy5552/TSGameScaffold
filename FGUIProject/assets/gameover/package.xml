@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="wypcxr9r">
+  <resources>
+    <component id="syyn0" name="View_Gameover.xml" path="/" exported="true"/>
+    <image id="syyn1" name="游戏结束界面2.png" path="/效果图/"/>
+    <image id="syyn3" name="灰色条板.jpg" path="/资源/" scale="9grid" scale9grid="2,3,1,2"/>
+    <image id="syyn6" name="炫耀一下.png" path="/资源/"/>
+    <image id="syyn7" name="再来一局.png" path="/资源/"/>
+    <image id="syyn8" name="bg.png" path="/资源/" scale="9grid" scale9grid="21,22,5,5"/>
+    <image id="hk0m9" name="bg_2.jpg" path="/资源/"/>
+  </resources>
+  <publish name="gameover" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,500" opaque="false" designImage="ui://srduhovm11arcy" designImageOffsetY="-236" designImageAlpha="0">
+  <controller name="C_State" pages="0,get,1,total" selected="0"/>
+  <displayList>
+    <text id="n1_11arc" name="tf_tips" xy="211,232" size="328,34" group="n7_11arc" fontSize="22" color="#d08816" align="center" vAlign="middle" vars="true" autoSize="none" text="礼券可以兑换道具和现金"/>
+    <text id="n2_11arc" name="tf_total" xy="201,179" size="348,56" group="n7_11arc" fontSize="40" color="#d30f00" align="center" vAlign="middle" ubb="true" vars="true" autoSize="none" text="[color=#D08816][size=38]当前礼券：[/size][/color]{money=???}"/>
+    <text id="n5_11arc" name="n4" xy="257,403" size="236,43" group="n7_11arc" fontSize="30" color="#f35b38" align="center" vAlign="middle" vars="true" autoSize="none" text="已获得"/>
+    <text id="n4_11arc" name="tf_money" xy="350,299" size="159,105" group="n17_ouc2" fontSize="78" color="#d30f00" vAlign="middle" vars="true" text="x{money=???}">
+      <relation target="n16_ouc2" sidePair="left-right"/>
+    </text>
+    <image id="n16_ouc2" name="n16" src="ouc2c1z" fileName="资源/礼券.png" xy="241,304" group="n17_ouc2"/>
+    <group id="n17_ouc2" name="group_j" xy="241,299" size="268,105" group="n7_11arc" advanced="true" collapsed="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n7_11arc" name="group_0" xy="201,179" size="348,267" advanced="true">
+      <gearDisplay controller="C_State" pages="0"/>
+    </group>
+    <text id="n12_11arc" name="tf_total1" xy="158,233" size="433,74" group="n15_11arc" fontSize="54" color="#d30f00" align="center" vAlign="middle" ubb="true" vars="true" autoSize="none" text="[color=#D08816][size=48]余额：[/size][/color]{money=???}元"/>
+    <text id="n14_11arc" name="tf_tips1" xy="262,342" size="225,34" group="n15_11arc" fontSize="28" color="#d08816" align="center" vAlign="middle" vars="true" autoSize="none" text="满{limit=20}元才能提现"/>
+    <group id="n15_11arc" name="group_1" xy="158,233" size="433,143" advanced="true" collapsed="true">
+      <gearDisplay controller="C_State" pages="1"/>
+    </group>
+  </displayList>
+</component>

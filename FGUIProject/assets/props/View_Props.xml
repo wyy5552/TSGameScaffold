@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://pycl2wftkj7wc8">
+  <controller name="C_State" pages="0,danger,1,receive" selected="1"/>
+  <displayList>
+    <image id="n0_11arc" name="n0" src="11arc9s" fileName="资源/通用小板子.png" pkg="6be7cpot" xy="62,239" size="626,545" locked="true"/>
+    <image id="n1_11arc" name="n1" src="11arc2" fileName="资源/获得道具.png" xy="245,258" group="n9_11arc">
+      <gearDisplay controller="C_State" pages=""/>
+    </image>
+    <image id="n2_11arc" name="n2" src="11arc9v" fileName="资源/紫色装饰.png" pkg="6be7cpot" xy="206,287" group="n9_11arc"/>
+    <image id="n3_11arc" name="n3" src="11arc9v" fileName="资源/紫色装饰.png" pkg="6be7cpot" xy="522,287" group="n9_11arc"/>
+    <image id="n4_11arc" name="n4" src="11arc9w" fileName="资源/紫色条.png" pkg="6be7cpot" xy="136,328" size="478,3" group="n9_11arc"/>
+    <loader id="n5_11arc" name="loader" xy="304,427" size="142,151" group="n9_11arc" url="ui://6be7cpotftyd9e"/>
+    <component id="n7_11arc" name="btn_get" src="nd81h" fileName="组件/Btn_Common.xml" pkg="srduhovm" xy="183,934" size="384,140" group="n9_11arc" controller="C_Color,0">
+      <Button icon="ui://pycl2wft11arc3"/>
+    </component>
+    <group id="n9_11arc" name="group_0" xy="136,258" size="478,816" advanced="true" collapsed="true">
+      <gearDisplay controller="C_State" pages="1"/>
+    </group>
+    <image id="n6_11arc" name="n6" src="11arc9x" fileName="资源/x1.png" pkg="6be7cpot" xy="330,669" locked="true" hideByEditor="true" visible="false"/>
+    <image id="n8_11arc" name="n8" src="11arc4" fileName="资源/危险.png" xy="303,260" group="n16_11arc"/>
+    <image id="n10_11arc" name="n10" src="11arc5" fileName="资源/装饰小点.png" xy="206,287" group="n16_11arc"/>
+    <image id="n11_11arc" name="n11" src="11arc5" fileName="资源/装饰小点.png" xy="522,286" group="n16_11arc"/>
+    <text id="n12_11arc" name="n12" xy="268,407" size="213,39" group="n16_11arc" fontSize="26" color="#706271" align="center" vAlign="middle" text="生命只剩一格了！"/>
+    <component id="n13_11arc" name="btn_close" src="11arc9u" fileName="组件/Btn_Close.xml" pkg="6be7cpot" xy="608,249" group="n16_11arc"/>
+    <image id="n14_11arc" name="n14" src="11arc7" fileName="资源/橘色横条.png" xy="134,329" group="n16_11arc"/>
+    <loader id="n15_11arc" name="give_props" xy="304,488" size="142,151" group="n16_11arc" url="ui://6be7cpotftyd9e" align="center" vAlign="middle" fill="scaleFree"/>
+    <component id="n17_11arc" name="btn_share" src="nd81h" fileName="组件/Btn_Common.xml" pkg="srduhovm" xy="183,934" size="384,140" group="n16_11arc" controller="C_Color,1">
+      <Button icon="ui://6be7cpot11arc9z"/>
+    </component>
+    <group id="n16_11arc" name="group_1" xy="134,249" size="538,825" advanced="true" collapsed="true">
+      <gearDisplay controller="C_State" pages="0"/>
+    </group>
+    <image id="n19_l5ju" name="n19" src="l5juc9" fileName="资源/数字底.png" xy="330,670"/>
+    <text id="n20_l5ju" name="tf_value" xy="344,678" size="59,40" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="x2"/>
+  </displayList>
+</component>

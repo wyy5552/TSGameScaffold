@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,64" pivot="0.5,0.5" opaque="false" extention="Button" bgColor="#0099ff">
+  <displayList>
+    <image id="n7_vl3b" name="n7" src="yj651e" xy="140,0" size="360,64" group="n6_flq5">
+      <relation target="n5_flq5" sidePair="height-height"/>
+    </image>
+    <text id="n5_flq5" name="title" xy="169,17" size="301,30" group="n6_flq5" fontSize="26" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="height" text="提示显示六七个字"/>
+    <group id="n6_flq5" name="n6" xy="140,0" size="360,64" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+  <Button/>
+  <relation target="n7_vl3b" sidePair="height-height"/>
+  <transition name="Ani_show" autoPlay="true">
+    <item time="0" type="Alpha" target="n6_flq5" tween="true" startValue="0" endValue="1" duration="9" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n7_vl3b" tween="true" startValue="0,0" endValue="1,1" duration="9" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n5_flq5" tween="true" startValue="0,0" endValue="1,1" duration="9" ease="Back.Out"/>
+    <item time="0" type="XY" target="n6_flq5" tween="true" startValue="320,33" endValue="140,0" duration="9" ease="Back.Out"/>
+  </transition>
+</component>
