@@ -1,7 +1,7 @@
 /*
  * @Author: yourName
  * @since: 2021-07-09 10:26:14
- * @lastTime: 2021-07-09 17:44:24
+ * @lastTime: 2021-07-11 17:09:57
  * @LastAuthor: your name
  * @message:
  * @文件相对于项目的路径: /TSGameScaffold/assets/script/App.ts
@@ -17,7 +17,7 @@ const { ccclass } = _decorator;
 export default class App extends Component {
     onLoad() {
         fgui.GRoot.create();
-        let ui = new MainUI();
+        const ui = new MainUI();
         ui.init();
     }
 }

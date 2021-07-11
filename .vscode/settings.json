@@ -31,7 +31,6 @@
 	"[typescript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"prettier.eslintIntegration": true,
 	"cSpell.userWords": [
 		"yourName"
 	],
@@ -45,7 +44,6 @@
 		"[x]"
 	],
 	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-	"todo-tree.tree.showScanModeButton": false,
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"[javascript]": {
 		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
@@ -154,5 +152,5 @@
 	"cSpell.words": [
 		"fairygui",
 		"fgui"
-	],
+	]
 }

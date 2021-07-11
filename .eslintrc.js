@@ -1,9 +1,9 @@
 /*
  * @Author: yourName
  * @since: 2021-07-09 10:26:14
- * @lastTime: 2021-07-09 17:39:17
+ * @lastTime: 2021-07-11 16:45:37
  * @LastAuthor: your name
- * @message: 
+ * @message:
  * @文件相对于项目的路径: /TSGameScaffold/.eslintrc.js
  */
 module.exports = {
@@ -34,6 +34,7 @@ module.exports = {
     }],
     rules: {
         "@typescript-eslint/indent": ["error", 4],
+        "@typescript-eslint/comma-dangle": 'off',
         "indent": ["error", 4],
         "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
         "max-classes-per-file": ["error", 2],

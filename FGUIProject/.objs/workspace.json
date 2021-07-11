@@ -1,23 +1,32 @@
 {
-  "libview.firstColumnWidth": 283,
-  "libview.iconScale": 0,
-  "doc.openedDocs": [
-    "ui://8zew8olti9cd0",
-    "ui://8zew8oltrftu3",
-    "ui://8zew8oltrftu0"
-  ],
-  "auxline1": true,
-  "canvasColor": 10066329,
-  "auxline2": true,
-  "doc.activeDoc": "ui://8zew8oltrftu0",
-  "libview.twoColumn": false,
-  "libview.expandedNodes": [
-    "8zew8olt",
-    "/"
-  ],
-  "snapToGrid": true,
-  "backgroundColor": 6710886,
-  "libview.currentGroup": "",
-  "gridSize": 30,
-  "gridColor": 80
+	"doc.openedDocs": [
+		"ui://8zew8oltrftu3",
+		"ui://8zew8oltrftu0",
+		"ui://6sd2b4omhk0mcab",
+		"ui://pmzq1try11arc0",
+		"ui://sotny11wftyd0",
+		"ui://rbw1tvvviitt1",
+		"ui://6be7cpotyj651i",
+		"ui://6be7cpotyj651k",
+		"ui://6be7cpotyj651l",
+		"ui://wypcxr9rsyyn0",
+		"ui://6be7cpotyj651h",
+		"ui://6be7cpotjb4e8m",
+		"ui://6be7cpot11arc9u",
+		"ui://6sd2b4omf4jw0",
+		"ui://pycl2wft11arc0"
+	],
+	"libview.twoColumn": false,
+	"gridColor": 80,
+	"snapToGrid": true,
+	"auxline1": true,
+	"libview.currentGroup": "",
+	"gridSize": 30,
+	"libview.iconScale": 0,
+	"auxline2": true,
+	"canvasColor": 10066329,
+	"libview.expandedNodes": [],
+	"libview.firstColumnWidth": 255,
+	"doc.activeDoc": "ui://sotny11wftyd0",
+	"backgroundColor": 6710886
 }
