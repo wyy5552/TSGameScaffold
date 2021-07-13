@@ -151,6 +151,7 @@
 	"eslint.format.enable": true,
 	"cSpell.words": [
 		"fairygui",
-		"fgui"
+		"fgui",
+		"puremvc"
 	]
 }

@@ -1,7 +1,7 @@
 /*
  * @Author: yourName
  * @since: 2021-07-09 10:26:14
- * @lastTime: 2021-07-11 16:45:37
+ * @lastTime: 2021-07-13 16:12:17
  * @LastAuthor: your name
  * @message:
  * @文件相对于项目的路径: /TSGameScaffold/.eslintrc.js
@@ -44,7 +44,9 @@ module.exports = {
 		"simple-import-sort/exports": "error",
 		"import/first": "error",
 		"import/newline-after-import": "error",
-		"import/no-duplicates": "error"
+		"import/no-duplicates": "error",
+        "keyword-spacing": "off",
+        "@typescript-eslint/keyword-spacing": ["off"]
     },
     // 定义全局变量
     globals: {
