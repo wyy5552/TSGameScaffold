@@ -5,8 +5,6 @@
     <component id="f4jw7" name="Bar_Loading.xml" path="/组件/"/>
     <component id="yj65a" name="Btn_Start.xml" path="/组件/"/>
     <image id="qaj5e" name="loading_text_03.png" path="/资源/"/>
-    <image id="q5mml" name="loading-大尺寸.jpg" path="/_效果图/"/>
-    <image id="kb41n" name="进入界面---logo.jpg" path="/_效果图/"/>
     <image id="kb41p" name="内调.png" path="/资源/" scale="9grid" scale9grid="6,4,3,2"/>
     <image id="kb41q" name="外壳.png" path="/资源/" scale="9grid" scale9grid="34,10,11,20"/>
     <image id="kb41r" name="小按钮.png" path="/资源/"/>

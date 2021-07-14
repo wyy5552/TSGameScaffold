@@ -1,7 +1,7 @@
 /*
  * @Author: yourName
  * @since: 2021-07-09 10:26:14
- * @lastTime: 2021-07-13 16:12:17
+ * @lastTime: 2021-07-14 23:25:06
  * @LastAuthor: your name
  * @message:
  * @文件相对于项目的路径: /TSGameScaffold/.eslintrc.js
@@ -39,14 +39,26 @@ module.exports = {
         "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
         "max-classes-per-file": ["error", 2],
         "no-underscore-dangle": 0,
-        "class-methods-use-this": 1, // 静态方法的使用场景： https://segmentfault.com/q/1010000011602429
+        "class-methods-use-this": 0, // 静态方法的使用场景： https://segmentfault.com/q/1010000011602429
 		"simple-import-sort/imports": "error",
 		"simple-import-sort/exports": "error",
 		"import/first": "error",
 		"import/newline-after-import": "error",
 		"import/no-duplicates": "error",
+        "indent": "off",
         "keyword-spacing": "off",
-        "@typescript-eslint/keyword-spacing": ["off"]
+        "@typescript-eslint/keyword-spacing": ["off"],
+        "@typescript-eslint/lines-between-class-members": ["off"],//属性之间没有空行
+        "object-curly-newline": ["error", { "ImportDeclaration": "never", "ExportDeclaration": "never" }],//{}括号的布局
+        "max-len": ["error", { "code": 200, "tabWidth": 4 }],// 一行的最大长度
+        "operator-linebreak": ["error", "after"],//符号在屁股后面
+        "@typescript-eslint/no-unused-expressions": ["error", { "allowShortCircuit": true }],
+        "import/prefer-default-export": "off",
+        "no-restricted-syntax":0,
+        "prefer-const":0,
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": 1,//没有用过的变量
+        "no-param-reassign": 1,// 形参被重新赋值
     },
     // 定义全局变量
     globals: {

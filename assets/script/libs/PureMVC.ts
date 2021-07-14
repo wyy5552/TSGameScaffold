@@ -1858,7 +1858,7 @@ export class Facade implements IFacade {
  * Typically, a <code>Mediator</code> will be written to serve one specific control or group
  * controls and so, will not have a need to be dynamically named.
  */
-export class Mediator extends Notifier implements IMediator, INotifier {
+export class Mediator<T> extends Notifier implements IMediator, INotifier {
     /**
      * The name of the <code>Mediator</code>.
      *
@@ -1871,7 +1871,7 @@ export class Mediator extends Notifier implements IMediator, INotifier {
      *
      * @protected
      */
-    viewComponent: any = null;
+    viewComponent: T = null!;
 
     /**
      * Constructs a <code>Mediator</code> instance.
@@ -1882,7 +1882,7 @@ export class Mediator extends Notifier implements IMediator, INotifier {
      * @param viewComponent
      *        The view component handled by this <code>Mediator</code>.
      */
-    constructor(mediatorName: string = '', viewComponent: any = null) {
+    constructor(mediatorName: string = '', viewComponent: T = null!) {
         super();
 
         this.mediatorName = mediatorName != '' ? mediatorName : Mediator.NAME;
@@ -1915,7 +1915,7 @@ export class Mediator extends Notifier implements IMediator, INotifier {
      * @return
      *        The <code>Mediator</code>'s default view component.
      */
-    getViewComponent(): any {
+    getViewComponent(): T {
         return this.viewComponent;
     }
 
@@ -1925,7 +1925,7 @@ export class Mediator extends Notifier implements IMediator, INotifier {
      * @param viewComponent
      *        The default view component to set for this <code>Mediator</code>.
      */
-    setViewComponent(viewComponent: any): void {
+    setViewComponent(viewComponent: T): void {
         this.viewComponent = viewComponent;
     }
 

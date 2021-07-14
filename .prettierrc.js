@@ -1,14 +1,14 @@
 /*
  * @Author: yourName
  * @since: 2021-07-09 10:26:14
- * @lastTime: 2021-07-11 16:48:56
+ * @lastTime: 2021-07-13 17:29:04
  * @LastAuthor: your name
  * @message:
  * @文件相对于项目的路径: /TSGameScaffold/.prettierrc.js
  */
 module.exports = {
     // 一行最多 100 字符
-    printWidth: 100,
+    printWidth: 200,
     // 不使用缩进符，而使用空格
     useTabs: false,
     // 使用 2 个空格缩进
