@@ -1,0 +1,58 @@
+// Effect Syntax Guide: https://github.com/cocos-creator/docs-3d/blob/master/zh/material-system/effect-syntax.md
+#include <cc-global>
+#include <cc-shadow>
+#include <common>
+#include <gamma>
+
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: general-vs:vert # builtin header
+      frag: unlit-fs:frag
+      properties: &props
+        mainTexture:    { value: white }
+        mainColor:      { value: [1, 1, 1, 1], editor: { type: color } }
+  - name: transparent
+    passes:
+    - vert: general-vs:vert # builtin header
+      frag: unlit-fs:frag
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+}%
+
+CCProgram unlit-fs %{
+  precision highp float;
+  #include <output>
+  #include <cc-fog>
+
+  in vec2 v_uv;
+  in vec3 v_normal;
+
+  uniform sampler2D mainTexture;
+  in float factor_fog;
+
+  uniform Constant {
+    vec4 mainColor;
+  };
+
+  vec4 frag () {
+    vec3 N = normalize(v_normal);
+    vec3 L = normalize(-cc_mainLitDir.xyz);
+    float halfLambert = (dot(N, L) * 0.5 + 0.5);
+    vec3 lightColor = cc_mainLitColor.rgb * halfLambert;
+    vec4 mixColor = vec4(lightColor.xyz, 1);
+
+    vec4 col = mainColor * texture(mainTexture, v_uv);
+    col = col * mixColor;
+
+    col = CC_APPLY_FOG(col, factor_fog);
+    return CCFragOutput(col);
+  }
+}%

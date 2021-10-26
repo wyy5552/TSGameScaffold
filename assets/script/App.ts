@@ -1,7 +1,7 @@
 /*
  * @Author: yourName
  * @since: 2021-07-09 10:26:14
- * @lastTime: 2021-10-26 23:08:10
+ * @lastTime: 2021-10-26 23:20:25
  * @LastAuthor: your name
  * @message:
  * @文件相对于项目的路径: /TSGameScaffold/assets/script/App.ts
@@ -11,7 +11,6 @@ import { DEBUG } from 'cc/env';
 import * as fgui from 'fairygui-cc';
 
 import { AppContainer } from './game/AppContainer';
-import { LoadGroup } from './game/utils/LoadGroup';
 import { AppFacade } from './mvc/core/AppFacade';
 
 const { ccclass } = _decorator;
