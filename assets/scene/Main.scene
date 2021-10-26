@@ -221,8 +221,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 667.5,
-      "y": 375,
+      "x": 375,
+      "y": 667.5,
       "z": 0
     },
     "_lrot": {
@@ -303,7 +303,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 445.5322966507177,
+    "_orthoHeight": 667.5,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -348,8 +348,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -505.5,
-      "y": -361,
+      "x": 0,
+      "y": 0,
       "z": 0
     },
     "_lrot": {
@@ -398,8 +398,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1335,
-      "height": 750
+      "width": 750,
+      "height": 1335
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -535,7 +535,8 @@
       "__type__": "cc.Vec2",
       "x": 512,
       "y": 512
-    }
+    },
+    "_saturation": 1
   },
   {
     "__type__": "cc.SkyboxInfo",

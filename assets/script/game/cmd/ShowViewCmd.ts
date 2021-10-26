@@ -2,13 +2,12 @@ import * as fgui from 'fairygui-cc';
 
 import { ICommand, INotification, SimpleCommand } from '../../libs/PureMVC';
 import { BaseMediator } from '../../mvc/base/BaseMediator';
-import { MsgConst } from '../../mvc/notification/MsgConst';
 import { LoadingMediator } from '../loading/LoadingMediator';
 
 /*
  * @Author: yourName
  * @since: 2021-07-14 16:47:05
- * @lastTime: 2021-07-15 01:48:31
+ * @lastTime: 2021-07-19 15:07:11
  * @LastAuthor: your name
  * @message:
  * @文件相对于项目的路径: /TSGameScaffold/assets/script/game/cmd/ShowViewCmd.ts
@@ -32,6 +31,8 @@ export class ShowViewCmd extends SimpleCommand implements ICommand {
                     mdr.show();
                 }
             );
+        } else {
+            mdr.show();
         }
     }
 }

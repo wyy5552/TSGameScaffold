@@ -1,30 +1,32 @@
 {
-	"libview.iconScale": 0,
-	"snapToGrid": true,
-	"auxline1": true,
-	"canvasColor": 10066329,
-	"libview.twoColumn": false,
-	"libview.currentGroup": "",
-	"auxline2": true,
-	"doc.activeDoc": "ui://6be7cpotyj651k",
-	"libview.expandedNodes": [
-		"6be7cpot",
-		"/",
-		"6be7cpot",
-		"/_系统用/"
-	],
-	"doc.openedDocs": [
-		"ui://6sd2b4omhk0mcab",
-		"ui://srduhovmczdz0",
-		"ui://6be7cpotyj651k",
-		"ui://6be7cpotyj651l",
-		"ui://6be7cpotyj651h",
-		"ui://6be7cpotjb4e8m",
-		"ui://6be7cpot11arc9u",
-		"ui://6sd2b4omf4jw0"
-	],
-	"gridSize": 30,
-	"gridColor": 80,
-	"libview.firstColumnWidth": 283,
-	"backgroundColor": 6710886
+  "libview.firstColumnWidth": 283,
+  "libview.iconScale": 0,
+  "doc.openedDocs": [
+    "ui://6sd2b4omhk0mcab",
+    "ui://srduhovmczdz0",
+    "ui://6be7cpotyj651k",
+    "ui://sotny11wftyd0",
+    "ui://6be7cpotyj651l",
+    "ui://6be7cpotyj651h",
+    "ui://6be7cpotjb4e8m",
+    "ui://6be7cpot11arc9u",
+    "ui://6sd2b4omf4jw0",
+    "ui://6sd2b4omkb41s"
+  ],
+  "auxline1": true,
+  "canvasColor": 10066329,
+  "auxline2": true,
+  "doc.activeDoc": "ui://6sd2b4omf4jw0",
+  "libview.twoColumn": false,
+  "libview.expandedNodes": [
+    "sotny11w",
+    "/",
+    "6sd2b4om",
+    "/"
+  ],
+  "backgroundColor": 6710886,
+  "snapToGrid": true,
+  "gridColor": 80,
+  "libview.currentGroup": "",
+  "gridSize": 30
 }

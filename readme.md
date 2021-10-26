@@ -1,7 +1,7 @@
 <!--
  * @Author: yourName
  * @since: 2021-07-11 03:16:25
- * @lastTime: 2021-07-13 17:18:20
+ * @lastTime: 2021-07-19 15:00:54
  * @LastAuthor: your name
  * @message:
  * @文件相对于项目的路径: /TSGameScaffold/readme.md
@@ -23,7 +23,8 @@
    [别人的额项目](https://github.com/jsroads/Cocos-Creator-PureMVC-Demo)
    a. 需要转变游戏进程的思维。
    比如从登陆，跳转到主界面；以前是是直接拿到主界面，或者通过事件来启动；现在则是直接通过 cmd 来驱动进程。
-   b. 我要做什么，就是我要执行某 cmd
+   b. 我要做什么，就是我要执行某 cmd；
+
 3. 接入 fairyGUI
 
 4. 接入地图
